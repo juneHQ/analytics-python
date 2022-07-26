@@ -29,13 +29,13 @@ tests_require = [
 ]
 
 setup(
-    name='juneso-analytics-python',
+    name='june-analytics-python',
     version=VERSION,
     url='https://github.com/juneHQ/analytics-python',
     author='June',
-    author_email='work@june.so',
+    author_email='eng@june.so',
     maintainer='June',
-    maintainer_email='work@june.so',
+    maintainer_email='eng@june.so',
     test_suite='analytics.test.all',
     packages=['june.analytics', 'analytics.test'],
     python_requires='>=3.6.0',
@@ -52,9 +52,9 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
     ],
 )
