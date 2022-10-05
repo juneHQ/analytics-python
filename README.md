@@ -23,7 +23,7 @@ pip3 install june-analytics-python
 Now inside your app, you'll want to **set your** `write_key` before making any analytics calls:
 
 ```python
-import analytics
+from june import analytics
 
 analytics.write_key = 'YOUR_WRITE_KEY'
 ```
